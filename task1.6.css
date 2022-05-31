@@ -3,7 +3,9 @@
 	width:100%;
 	background-image:url(pictures/header-wrapper-bg.png);
 }
-
+body{
+	background-image: url("pictures/bookw.jpg");
+}
 #logo {
 	position: absolute;
 }
@@ -29,6 +31,7 @@
 	height: 60px;
 	width: 180px;
 	margin-left: 700px;
+	font-size: 23px;
 }
 table{
 	border-spacing: 50px 0px;
@@ -60,12 +63,12 @@ a{
 	height: 250px;
 	width: 950px;
 	margin-left: 300px;
-	background-image:url(pictures/banner-image.jpg);
+	background-image: url("pictures/banner-image.jpg");
 }
 
 .banner_text{
 	text-align: center;
-	margin-left: 450px;
+	margin-left: 430px;
 	margin-right: 30px;
 	font-weight: bold;
 }
@@ -114,15 +117,15 @@ a{
 .lor{
 	margin-top:40px;
 	height: 30px;
-	width: 330px;
+	width: 345px;
 	color: black;
-	margin-left: 12px;
+	margin-left: 14px;
 }
 .osn{
     margin-top:15px;
-	height:190px;
-	width: 570px;
-	background-image:url(pictures/pics01.jpg);
+	height:250px;
+	width: 565px;
+	background-image:url(pictures/11.jpg);
 	margin-left: 17px;
 }
 .text{
@@ -139,7 +142,7 @@ a{
 	margin-left: 17px;
 }
 .niz{
-    top:25%;
+    top:21%;
 	position: relative;
 	width: 570px;
 	height: 50px;
@@ -197,7 +200,7 @@ a{
 .group_imgs{
 	position: relative;
 	bottom: 15%;
-	margin-left:100px;
+	margin-left:140px;
 }
 
 p b{
@@ -245,9 +248,6 @@ p b{
 	box-shadow: 10px 5px 5px #1e90ff;
 }
 
-.content_video{
-
-}
 
 .right-sidebar{
 	margin-left: 300px;
@@ -282,6 +282,16 @@ p b{
 input:not(:placeholder-shown):invalid{
   background-color:pink;
   box-shadow:0 0 0 2px red;
+}
+
+.input{
+	cursor: pointer;
+}
+
+.input:hover{
+	width: 65px;
+	height: 20px;
+	font-size: 17px;
 }
 
 .cbSubscribeButton{
@@ -334,11 +344,11 @@ input:not(:placeholder-shown):invalid{
 }
 .cas2
 {
-	top:8%;
+	top:12%;
 	position: relative;
 	margin-left: 20px;
 	color: white;
-	white-space: pre-line;
+	white-space: normal;
 	line-height: 2;
 }
 .cas6{
@@ -439,4 +449,233 @@ a:hover{
 .cbTextButton:hover{
 	box-shadow: 10px 5px 5px rgba(0, 0, 255, .2);
 	font-size: 25px;
+}
+
+#bodyrightPan{width:284px; float:left; margin-left: 250px}
+#bodyrightPan form{width:284px; height:162px; background:#FFF0CC; color:#000; }
+#bodyrightPan form h2{width:273px; height:25px; background:#8D6C1B; color:#fff;  font-weight:bold; padding:0 0 0 11px; margin:0 0 6px 0;}
+
+#formPan{width:268px; height:21px; display:block; padding:9px 15px 0 11px;}
+#formPantwo{width:298px; height:21px;display:block; padding:9px 20px 0 11px;}
+#formPanthree{width:298px; height:21px;display:block; padding:9px 15px 0 11px;}
+form label{width:88px; height:21px; display:block; float:left; background:#FFFAEE; color:#000; text-align:center; line-height:21px; margin:0 16px 0 0;}
+form select{width:133px; height:18px; display:block; float:left; line-height:21px; font-size:12px;}
+
+.input{
+	width:55px;
+	height:15px;
+	background:#8D6C1B;
+	color:#fff;
+	font-weight:bold;
+	border:none;
+	font-size:14px;
+	margin:10px 0 0 185px;
+	padding:0px;
+}
+
+#bodyrightPan h3{background:#fff; color:#BE8A0A;  font-weight:bold; text-transform:uppercase; margin:15px 0;}
+
+#bodyrightPan ul{width:240px;}
+#bodyrightPan ul li{width:240px; height:20px;}
+
+
+.find_us_here {
+	width: 1567px;
+	height: 880px;
+	background-color: rgb(255, 255, 255);
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.find_text {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	padding-top: 50px;
+}
+
+.find_header {
+	text-align: center;
+	padding-top: 110px;
+}
+
+.find_title p {
+	color: rgb(38, 38, 38);
+	font-size: 23px;
+}
+
+.find_text p {
+	color: rgb(80, 80, 80);
+}
+
+.find_main {
+	height: 575px;
+	background-image: url("pictures/map.gif");
+}
+
+.find_container {
+	height: 575px;
+	margin-left: 250px;
+	margin-right: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.find_shape {
+	width: 300px;
+	height: 225px;
+	background-image: url("pictures/shape.gif");
+	margin-top: 250px;
+}
+
+.find_form {
+	width: 470px;
+	height: 475px;
+	margin-top: 90px;
+	background: rgb(255, 255, 255);
+	box-shadow: 0 0 10px;
+}
+
+.find_form_container {
+	height: 475px;
+	margin: 50px 45px 45px 45px;
+}
+
+.find_form_header {
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgb(38, 38, 38);
+	text-transform: uppercase;
+}
+
+.form_inputs {
+	height: 135px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.find_in {
+	height: 30px;
+	border: 1px solid rgb(231, 231, 231);
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.find_in::placeholder {
+	color: rgb(80, 80, 80);
+	padding-left: 15px;
+}
+
+.find_in:focus {
+	border-color: #bdbdbd;
+	outline: 0;
+}
+
+.find_input_memo {
+	width: 100%;
+	height: 85px;
+	border: 1px solid rgb(231, 231, 231);
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 20px;
+	resize: none;
+}
+
+.find_button {
+	text-align: center;
+	text-transform: uppercase;
+	background-color: rgb(38, 38, 38);
+	color: #fff;
+	height: 40px;
+	width: 120px;
+	margin-top: 30px;
+	float: right;
+	cursor: pointer;
+	border-width: 0px;
+}
+
+.find_button:hover {
+	background-color: #ff0036;
+}
+
+.input--error {
+	border: 2px solid red;
+}
+
+.find_input_memo:focus {
+	border-color: #bdbdbd;
+	outline: 0;
+}
+
+.find_shape p {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+.find_shape_text {
+	margin-left: 20px;
+	margin-top: 35px;
+}
+#price_blocks_k{
+	height: 550px;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+	display: flex;
+}
+#prices_k{
+	display: inline-block;
+	height: 780px;
+	background-color: pink;
+}
+.price_k{
+	display: inline-block;
+	text-align: center;
+	margin-right: 30px;
+	width: 370px;
+	height: 550px;
+	background-color: white;
+}
+.price_k>a>div{
+	padding-top: 10px;
+	margin-left: 115px;
+	margin-top: 50px;
+}
+.price_k>img{
+	margin-top: 20px;
+}
+.full_access_k{
+	font-size: 16px;
+	font-style: italic;
+}
+.dd_margin50{
+	margin-top: 50px;
+}
+.italic_k{
+	margin-top: 12px;
+}
+
+span{
+	display:block;
+}
+.price_num_k{
+	font-size: 70px;
+	margin-top: -35px;
+}
+.dd_height8759{
+	height: 87.59px;
+}
+.price_dollar_symb_k{
+	width: 21px;
+	font-size: 28px;
+	margin-left: 122px;
 }
